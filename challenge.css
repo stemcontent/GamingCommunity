@@ -1,0 +1,90 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color:  #b3b3b3;}
+
+body {
+    background: #00001c;
+    height: 100vh;
+  }
+
+  a {
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+
+  header {
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+  }
+  header ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  header ul li {
+
+    margin-right: 30px;
+  }
+  header ul li a {
+
+    padding: 6px 15px;
+    border-radius: 20px;
+  }
+
+  header ul li a:hover {
+    background-color: #b3b3b3;
+    color: black;
+  }
+  header ul li .active {
+    background-color: #b3b3b3;
+    color: white;
+  }
+  .p1{
+    color: #b3b3b3; 
+    font-size: 25px;
+  }
+  .div1{
+    text-align: center;
+    padding: 150px;
+  }
+  .mdiv{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .div2{
+    position: relative;
+    width: 100%;
+
+
+  }
+  .div3{
+    position: relative;
+    width: 100%;
+    margin-left: 770px;
+    margin-top: -400px;
+  }
+  .image1{
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+  }
+  .image2{
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+  }
